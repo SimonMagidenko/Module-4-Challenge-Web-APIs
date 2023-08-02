@@ -1,0 +1,29 @@
+#quiz {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#quiz button {
+  display: block;
+  width: auto;
+  margin: 0 auto 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Example: Hover effect for answer buttons */
+#quiz button:hover {
+  background-color: #ddd;
+}
+
+#question {
+  text-align: center;
+  margin-bottom: 20px;
+}
